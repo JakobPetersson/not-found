@@ -1,8 +1,8 @@
 {
-  "name": "@craic/typescript-boilerplate",
+  "name": "@minukood/not-found",
   "version": "0.0.1",
-  "description": "typescript-boilerplate",
-  "repository": "git@github.com:JakobPetersson/typescript-boilerplate.git",
+  "description": "not-found",
+  "repository": "git@github.com:JakobPetersson/not-found.git",
   "author": "Jakob Petersson <github@jakobpetersson.se>",
   "license": "MIT",
   "private": false,
