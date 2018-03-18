@@ -19,10 +19,10 @@ export default class Status {
 
   public toString() {
     if (this.isNotFound()) {
-      return colors.bgGreen(' ');
+      return colors.bgGreen('   ');
     } else if (this.isFound()) {
-      return colors.bgRed(' ');
+      return colors.bgRed('   ');
     }
-    return colors.bgYellow(this.statusCode ? this.statusCode.toString() : '?');
+    return colors.bgYellow(this.statusCode ? this.statusCode.toString() : '???');
   }
 }

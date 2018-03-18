@@ -19,7 +19,7 @@ export default class Result {
       buffer += text;
     }
     buffer += ': ';
-    buffer += this.results.map((status) => status.toString()).join();
+    buffer += this.results.map((status) => status.toString()).join('');
     buffer += '\n';
     return buffer;
   }

@@ -11,7 +11,7 @@ export default class Checker {
     this.printBaseUrls();
   }
 
-  public checkSingle(permutation: string, padLength?: number) {
+  public checkSingle(permutation: string, padLength: number = 20) {
     (async () => {
       const result = await this.checkPermutation(permutation);
       process.stdout.write(result.toString(padLength));

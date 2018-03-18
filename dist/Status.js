@@ -17,12 +17,12 @@ class Status {
     }
     toString() {
         if (this.isNotFound()) {
-            return colors_1.default.bgGreen(' ');
+            return colors_1.default.bgGreen('   ');
         }
         else if (this.isFound()) {
-            return colors_1.default.bgRed(' ');
+            return colors_1.default.bgRed('   ');
         }
-        return colors_1.default.bgYellow(this.statusCode ? this.statusCode.toString() : '?');
+        return colors_1.default.bgYellow(this.statusCode ? this.statusCode.toString() : '???');
     }
 }
 exports.default = Status;

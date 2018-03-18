@@ -19,7 +19,7 @@ class Checker {
         this.baseUrls = baseUrls;
         this.printBaseUrls();
     }
-    checkSingle(permutation, padLength) {
+    checkSingle(permutation, padLength = 20) {
         (() => __awaiter(this, void 0, void 0, function* () {
             const result = yield this.checkPermutation(permutation);
             process.stdout.write(result.toString(padLength));
